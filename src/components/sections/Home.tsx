@@ -2,7 +2,7 @@
 
 const Home = () => {
   return (
-    <section id="home" className="mx-auto flex max-w-5xl flex-col justify-center gap-6 px-5 py-12">
+    <section id="home" className="mx-auto flex max-w-6xl flex-col justify-center gap-6 px-5 py-12">
         <h1 className="text-3xl font-bold sm:text-5xl ">Alexandra Henriksson</h1>
         <p className="max-w-xl text-lg">I'm a frontend developer student who loves clean structured code.</p>
 
