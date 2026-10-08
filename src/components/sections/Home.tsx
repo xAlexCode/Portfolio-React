@@ -10,7 +10,7 @@ const Home = () => {
             <a href="#projects" className="rounded-lg border px-3 py-2.5">
                 View Projects
             </a>
-            <a href="../../src/assets/pdf/AlexandraHenrikssonCV.pdf" download className="rounded-lg border px-3 py-2.5">
+            <a href="/pdf/AlexandraHenrikssonCV.pdf" download className="rounded-lg border px-3 py-2.5">
             Download CV
             </a>
         </div>
