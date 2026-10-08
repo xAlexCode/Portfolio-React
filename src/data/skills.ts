@@ -1,52 +1,52 @@
 export const skills = [
   {
     id: 1,
-    image: "assets/icons/html-5.png",
-    span: "HTML"
+    image: "icons/html.png",
+    name: "HTML"
   },
   {
     id: 2,
-    image: "assets/icons/css.png",
-    span: "CSS"
+    image: "icons/css.png",
+    name: "CSS"
   },
   {
     id: 3,
-    image: "assets/icons/javascript.png",
-    span: "JavaScript"
+    image: "icons/javascript.png",
+    name: "JavaScript"
   },
   {
     id: 4,
-    image: "assets/icons/typescript.png",
-    span: "TypeScript"
+    image: "icons/typescript.png",
+    name: "TypeScript"
   },
   {
     id: 5,
-    image: "assets/icons/figma.png",
-    span: "Figma"
+    image: "icons/figma.png",
+    name: "Figma"
   },
   {
     id: 6,
-    image: "assets/icons/miro.png",
-    span: "Miro"
+    image: "icons/miro.png",
+    name: "Miro"
   },
   {
     id: 7,
-    image: "assets/icons/git.png",
-    span: "Git"
+    image: "icons/git.png",
+    name: "Git"
   },
   {
     id: 8,
-    image: "assets/icons/sass.png",
-    span: "Sass"
+    image: "icons/sass.png",
+    name: "Sass"
   },
   {
     id: 9,
-    image: "assets/icons/react.png",
-    span: "React"
+    image: "icons/react.png",
+    name: "React"
   }, 
   {
-    id: 9,
-    image: "assets/icons/swift.png",
-    span: "Swift"
+    id: 10,
+    image: "icons/swift.png",
+    name: "Swift"
   }
 ];
