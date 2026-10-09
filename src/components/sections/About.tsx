@@ -4,7 +4,7 @@ import Skillcard from "../rendering/SkillCard"
 
 const About = () => {
   return (
-    <section id="about" className="bg-zinc-700 text-white py-20">
+    <section id="about" className="bg-zinc-800 text-white py-20">
         
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-col items-center gap-40 md:flex-row md:items-start">
