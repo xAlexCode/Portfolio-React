@@ -3,7 +3,7 @@ import ProjectCard from "../rendering/ProjectCard";
 
 const Projects = () => {
   return (
-    <section id="projects" className="scroll-mt-16 py-20 text-black">
+    <section id="projects" className=" bg-zinc-700 scroll-mt-16 py-20 text-white">
       <div className="mx-auto max-w-6xl px-5">
         <h2 className="mb-4 text-2xl font-bold">Projects</h2>
         <p className="text-base">
