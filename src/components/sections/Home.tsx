@@ -10,7 +10,7 @@ const Home = () => {
         loop
         aria-hidden="true"
         >
-            <source src="/video/colors.mp4" type="video/mp4" />
+            <source src="/video/colors2.mp4" type="video/mp4" />
         </video>
         
         <h1 className="text-3xl font-bold sm:text-5xl ">Alexandra Henriksson</h1>
