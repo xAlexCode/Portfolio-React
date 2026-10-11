@@ -1,12 +1,12 @@
-import { useState } from "react";
-import { projectdata } from "../../data/projects";
-import ProjectCard from "../rendering/ProjectCard";
-import ProjectFilter from "../rendering/ProjectFilter";
+import { useState } from "react"
+import { projectdata } from "../../data/projects"
+import ProjectCard from "../rendering/ProjectCard"
+import ProjectFilter from "../rendering/ProjectFilter"
 
-const tags = ["HTML", "CSS", "Javascript", "Typescript", "Express", "SCSS"];
+const tags = ["HTML", "CSS", "Javascript", "Typescript", "Express", "SCSS"]
 
 const Projects = () => {
-    const [selectedTags, setSelectedTags] = useState<string[]>([]); // Valda taggar, i detta fall tom lista vilket betyder att inga taggar är valda och då visas alla projekt
+    const [selectedTags, setSelectedTags] = useState<string[]>([]) // Valda taggar, i detta fall tom lista vilket betyder att inga taggar är valda och då visas alla projekt
 
     const toggleTag = (tag: string) => {
         if (selectedTags.includes(tag)) {
@@ -18,7 +18,7 @@ const Projects = () => {
 
     const visibleProjects = projectdata.filter((project) => {
         if (selectedTags.length === 0) return true;
-        return selectedTags.every((tag) => project.tags.includes(tag)); //hade some först men då visades projekt som matchade bara en av taggarna. Medans every "måste" ha alla taggar och det passade bättre.
+        return selectedTags.every((tag) => project.tags.includes(tag)) //hade some först men då visades projekt som matchade bara en av taggarna. Medans every "måste" ha alla taggar och det passade bättre.
     });
 
   return (
@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
