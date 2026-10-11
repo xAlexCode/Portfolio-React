@@ -8,7 +8,7 @@ const Contact = () => {
 
         <div className="mb-8 flex flex-col gap-2">
           <p>
-            <span className="font-semibold">Mail:</span>{" "} 
+            <span className="font-semibold">Email:</span>{" "} 
             <a href="mailto:alexandrahenriksson00@gmail.com" className="hover:text-blue-400">
               alexandrahenriksson00@gmail.com
             </a>
@@ -34,6 +34,7 @@ const Contact = () => {
           </p>
         </div>
 
+        <h4 className="mb-4 text-xl font-semibold">Contact me:</h4>
         <ContactForm />
       </div>
     </section>
