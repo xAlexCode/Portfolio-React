@@ -8,6 +8,7 @@ const Home = () => {
         autoPlay
         muted
         loop
+        playsInline
         aria-hidden="true"
         >
             <source src="/video/colors3.mp4" type="video/mp4" />
