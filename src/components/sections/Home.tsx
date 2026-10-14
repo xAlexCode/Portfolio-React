@@ -17,10 +17,10 @@ const Home = () => {
         <p className="max-w-xl text-lg">I'm a frontend developer student who loves clean structured code.</p>
 
         <div className="flex gap-5">
-            <a href="#projects" className="rounded-lg border px-3 py-2.5">
+            <a href="#projects" className="rounded-lg border px-3 py-2.5 hover:bg-blue-500">
                 View Projects
             </a>
-            <a href="/pdf/AlexandraHenrikssonCV.pdf" download className="rounded-lg border px-3 py-2.5">
+            <a href="/pdf/AlexandraHenrikssonCV.pdf" download className="rounded-lg border px-3 py-2.5 hover:bg-blue-500">
             Download CV
             </a>
         </div>
