@@ -1,5 +1,4 @@
 
-
 type ProjectFilterProps = { 
     tags: string[],
     selectedTags: string[],
