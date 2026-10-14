@@ -5,6 +5,7 @@ projekt, min bakgrund och mina kontaktuppgifter, och är responsiv från mobil
 till desktop.
 
 **Live:** [länk till Vercel]
+
 **Figma-skiss:** [https://www.figma.com/design/5tWDmXcpWNYeWxrf5fQIs9/Portfolio?node-id=0-1&t=xBDE69fkaO4OK76Z-1]
 
 
@@ -39,10 +40,6 @@ public/              bilder, ikoner, CV och video
 Projekts och skills ligger som data i separata filer och renderas med .map()
 och key. Sektionerna sätts ihop i App.
 
-## Ändringar jämfört med Figma-skissen
-
-[Beskriv vad du ändrade och varför. Till exempel layout, färger eller att något
-lades till eller togs bort. Har du ändrat inget, skriv det.]
 
 ## State och validering
 
