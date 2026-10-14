@@ -1,13 +1,11 @@
 # Portfolio – Alexandra Henriksson
 
 En portfolio byggd som en React single page application. Sidan visar mina
-projekt, min bakgrund och mina kontaktuppgifter, och är responsiv från mobil
+projekt, min bakgrund, mina kontaktuppgifter och är responsiv från mobil
 till desktop.
 
-**Live:** [länk till Vercel]
-
-**Figma-skiss:** [https://www.figma.com/design/5tWDmXcpWNYeWxrf5fQIs9/Portfolio?node-id=0-1&t=xBDE69fkaO4OK76Z-1]
-
+[Live länk Vercel](https://portfolio-react-five-flax.vercel.app/#contact) 
+[Figma skiss](https://www.figma.com/design/5tWDmXcpWNYeWxrf5fQIs9/Portfolio?node-id=0-1&t=xBDE69fkaO4OK76Z-1) 
 
 ## Tekniker
 - **React** och **TypeScript** via **Vite**
