@@ -115,7 +115,7 @@ const ContactForm = () => {
                 {errors.message && <p className="text-sm text-red-500">{errors.message}</p>}
             </div>
 
-            <button type="submit" className="w-fit rounded-lg px-5 py-2 bg-blue-500 text-white hover:bg-blue-600">
+            <button type="submit" className="w-fit rounded-lg px-5 py-2 bg-blue-600 text-white hover:bg-blue-700">
                 Send
             </button>
 

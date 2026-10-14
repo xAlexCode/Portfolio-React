@@ -34,7 +34,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <h4 className="mb-4 text-xl font-semibold">Contact me:</h4>
+        <h3 className="mb-4 text-xl font-semibold">Contact me:</h3>
         <ContactForm />
       </div>
     </section>

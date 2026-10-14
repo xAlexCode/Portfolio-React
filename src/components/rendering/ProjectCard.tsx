@@ -38,7 +38,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               href={liveLink}
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg bg-blue-500 px-4 py-2 text-white transition-colors hover:bg-blue-600"
+              className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
             >
               Live demo
             </a>
@@ -48,7 +48,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               href={repoLink}
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg border border-white px-4 py-2 text-white transition-colors hover:bg-blue-600"
+              className="rounded-lg border border-white px-4 py-2 text-white transition-colors hover:bg-blue-700"
             >
               GitHub
             </a>
