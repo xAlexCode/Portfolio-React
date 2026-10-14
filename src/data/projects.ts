@@ -11,7 +11,7 @@ export const projectdata = [
   {
     id: 2,
     title: "Hobby portfolio",
-    description: "This is a hobby portfolio that I worked on my free time, I wanted to create a mac vibe to the project and the resemblence of a folder.",
+    description: "This is a hobby portfolio that I worked on my free time, I wanted to create a mac vibe to the project and the resemblence of a folder. The project uses modern web technologies to create a responsive and visually appealing layout.",
     image: "/images/portfolio.jpg",
     tags: ["Typescript", "SCSS", "HTML"],
     liveLink: "https://xalexcode.github.io/Portfolio-AlexandraHenriksson/",

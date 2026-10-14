@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { motion } from "motion/react"
 import { projectdata } from "../../data/projects"
 import ProjectCard from "../rendering/ProjectCard"
 import ProjectFilter from "../rendering/ProjectFilter"
@@ -39,7 +40,16 @@ const Projects = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {visibleProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <div key={project.id}>
+              <motion.div
+                whileHover={{
+                  rotate: [0, -2, 2, -2, 2, 0],
+                  transition: { duration: 0.4 },
+                }}
+                >
+                <ProjectCard project={project} />
+              </motion.div>
+            </div>
           ))}
         </div>
       </div>
